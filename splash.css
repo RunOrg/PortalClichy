@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "BebasNeue";
+    font-style: normal;
+    font-weight: normal;
+    src: url("BebasNeue-webfont.woff") format("woff");
+}
+
+body {
+  background-color: white;
+}
+
+#logo {
+  margin: 50px;
+  height: 150px;
+  background: url("img/logo.png") center center no-repeat transparent;
+}
+
+#bar {
+  background: rgb(30,30,30);
+  text-align: right;
+  font-size: 21px;
+  line-height: 43px;
+  font-variant: small-caps;
+  color: #888;
+  font-family: 'BebasNeue', Verdana, sans;
+}
+
+#bar a:hover span {
+  background: #F3444D;
+  border-radius: 4px;
+}
+
+#bar a span {
+  padding: 4px 8px 2px;
+  height: 21px;
+  line-height: 21px;
+  color: white;
+  display: block; 
+}
+
+#bar a {
+  display: inline-block;
+  vertical-align: top;
+  padding: 8px;
+}
+
+#foot {
+  text-align: center;
+  font-size: 13px;
+  margin: 50px auto;
+}
+
+#foot a {
+  color: #888;
+}
+
+span.sep {
+  border-left: 1px solid #555;
+  border-right: 1px solid #000;
+  height: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 0px;
+  margin: 0 8px;
+}
+
+#narrow {
+  width: 600px;
+  margin: auto;
+}

@@ -10,7 +10,8 @@ body {
 }
 
 #logo {
-  margin: 50px;
+  display: block;
+  margin: 50px 0 30px 0;
   height: 150px;
   background: url("img/logo.png") center center no-repeat transparent;
 }
@@ -46,12 +47,15 @@ body {
 
 #foot {
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   margin: 50px auto;
 }
 
-#foot a {
-  color: #888;
+.center {
+  font-size: 14px;
+  color: #555;
+  margin: 20px 0;
+  text-align: center;
 }
 
 span.sep {
